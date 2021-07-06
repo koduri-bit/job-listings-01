@@ -40,5 +40,30 @@ to find front-end todo coding projects. Anyone with frontend skills can pull, de
 
 - [GitHub Pages](https://pages.github.com/)
 
+## To access this responsive application -
+
+**Please click this link [Job-Listings](https://koduri-bit.github.io/job-listings-01/)**
+
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
+**---**
 
 **Once again thank you for checking my work!** 🚀
