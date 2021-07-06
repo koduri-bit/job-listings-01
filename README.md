@@ -17,7 +17,7 @@ The requirement of this application is -
 
 - User can filter jobs by selecting few tags `html` `css` and `javascript`
 
-- Filtered tags should appear in on the top of the page.
+- Filtered tags should appear top of the page.
 
 - User can clear one tag at a time and narrow job search OR user can clear all tags from filter using `Clear` button.
 
