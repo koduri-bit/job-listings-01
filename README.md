@@ -11,6 +11,17 @@ to find front-end todo coding projects. Anyone with frontend skills can pull, de
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
+The requirement of this application is -
+
+- User can open in open in Mobile (375px wide) and Desktop (1445px wide)
+
+- User can filter jobs by selecting few tags `html` `css` and `javascript`
+
+- Filtered tags should appear in on the top of the page.
+
+- User can clear one tag at a time and narrow job search OR user can clear all tags from filter using `Clear` button.
+
+
 ## To access this responsive application -
 
 **Please click this link [Job-Listings](https://koduri-bit.github.io/job-listings-01/)**
