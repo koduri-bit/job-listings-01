@@ -4,10 +4,10 @@
 
 ## Welcome! 👋
 
-Thank You for checking out my project. I have done this frontend coding challenge to improve my skills in - HTML CSS and React ecosystem.
+Thank You for checking out my project. I have done this frontend coding challenge to improve my skills in - HTML CSS Javascript and React ecosystem.
 
-This challenge is taken from [Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt) , a  website
-to find front-end todo coding projects. Anyone with frontend skills can pull, design, develop and submit code. You can also click this link [Frontend Mentor](https://www.frontendmentor.io/challenges/).
+This challenge is taken from [Frontend Mentor](https://www.frontendmentor.io/challenges/job-listings-with-filtering-ivstIPCt) a  website
+to find front-end todo coding projects. Anyone with frontend skills can pull, design, develop and submit code. You can check more about this website by clicking this link - [Frontend Mentor](https://www.frontendmentor.io/challenges/).
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
@@ -17,7 +17,7 @@ to find front-end todo coding projects. Anyone with frontend skills can pull, de
 
 **Application state is managed using useState and props concept**
 
-**See my other projects where I would be using different state management concepts.**
+**See below projects where I would be using different state management concepts. Note the project still remains same `Job listings with filtering`, but the implementation changes as per below table**
 
   | Project                           |  Managing Application State | Managing Application side effects  |
   | :---                            |   :---:                       |   :---:                             |
