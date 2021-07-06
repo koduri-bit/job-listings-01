@@ -11,6 +11,10 @@ to find front-end todo coding projects. Anyone with frontend skills can pull, de
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
 
+## To access this responsive application -
+
+**Please click this link [Job-Listings](https://koduri-bit.github.io/job-listings-01/)**
+
 ## Project Highlights - 
 
 **I did this challenge using HTML, CSS, Javascript and React hooks (ex: useState and useEffect).** 
@@ -40,9 +44,6 @@ to find front-end todo coding projects. Anyone with frontend skills can pull, de
 
 - [GitHub Pages](https://pages.github.com/)
 
-## To access this responsive application -
-
-**Please click this link [Job-Listings](https://koduri-bit.github.io/job-listings-01/)**
 
 **---**
 **---**
