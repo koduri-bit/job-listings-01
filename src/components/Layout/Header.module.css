@@ -1,7 +1,7 @@
 
 .header{
     background-color: hsl(180, 29%, 50%);
-    background-image: url("../assets/images/bg-header-desktop.svg");
+    background-image: url("../../assets/images/bg-header-desktop.svg");
     height: 17vh;
     background-position-x: 85%;
     background-position-y: 87%;
@@ -14,7 +14,7 @@
     .header{
         width: 100%;
         background-color: hsl(180, 29%, 50%);
-        background-image: url("../assets/images/bg-header-mobile.svg");
+        background-image: url("../../assets/images/bg-header-mobile.svg");
         background-position-y: 87%;
         background-position-x: initial;
     }

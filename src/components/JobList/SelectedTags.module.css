@@ -61,10 +61,7 @@
 
 
 .tag:hover::after{
-    padding-left: 0.3em;
-    padding-right: 0.3em;
-    padding-top: .146em;
-    padding-bottom: .146em;
+    padding: .146em 0.3em .146em 0.3em;
     cursor: pointer;
     content: '\2715';
     position: absolute;

@@ -2,7 +2,7 @@
 import classes from './App.module.css';
 
 import React from "react";
-import Header from "./Layout/Header";
+import Header from "./components/Layout/Header";
 import Joblist from "./components/JobList/JobList";
 
 function App() {
