@@ -13,7 +13,7 @@ to find front-end todo coding projects. Anyone with frontend skills can pull, de
 
 The requirement of this application is -
 
-- User can open in open in Mobile (375px wide) and Desktop (1445px wide)
+- User can open and view application both Mobile (375px wide) and Desktop (1445px wide)
 
 - User can filter jobs by selecting few tags `html` `css` and `javascript`
 

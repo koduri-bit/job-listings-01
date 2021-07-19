@@ -13,7 +13,7 @@ import eyecamco from '../../assets/images/eyecam-co.svg'
 import theairfilter from '../../assets/images/the-air-filter-company.svg'
 
 import SelectedTags from '../JobList/SelectedTags'
-import {useMediaQuery} from "react-responsive";
+
 
 const INITIAL_JOB_LIST = [
     {
@@ -175,11 +175,11 @@ const INITIAL_JOB_LIST = [
 const Joblist = (props) =>{
 
 
-   const [JOB_LIST_INITIAL] = useState(INITIAL_JOB_LIST);
-   const [JOB_LIST_LATER, setJobListLater] = useState(INITIAL_JOB_LIST);
-   const [jobTagsToDisplay, setJobTagsToDisplay] = useState([]);
+    const [JOB_LIST_INITIAL] = useState(INITIAL_JOB_LIST);
+    const [JOB_LIST_LATER, setJobListLater] = useState(INITIAL_JOB_LIST);
+    const [jobTagsToDisplay, setJobTagsToDisplay] = useState([]);
 
-    const isMobile = useMediaQuery({ query: `(max-width: 376px)` });
+
 
     useEffect( ()  => {
         let initialJobList = [...JOB_LIST_INITIAL];
@@ -189,7 +189,7 @@ const Joblist = (props) =>{
         for(let jobItem of initialJobList){
             let languagesInEachJob = jobItem['languages']
             if(jobTagsToDisplay.length >0 ){
-             outer1 :    for(let i of jobTagsToDisplay){
+                outer1 :    for(let i of jobTagsToDisplay){
                     if(languagesInEachJob.length > 0){
                         for(let j of languagesInEachJob){
                             if( i === j){
@@ -255,7 +255,7 @@ const Joblist = (props) =>{
     const jobItemsInList = JOB_LIST_LATER.map( jobitem => {
 
 
-           return <JobItem
+            return <JobItem
                 key={jobitem.id}
                 id={jobitem.id}
                 logo= {jobitem.logo}
@@ -272,51 +272,14 @@ const Joblist = (props) =>{
                 level={jobitem.level}
                 saveUserClickedJobTagsInJobItem={saveUserClickedJobTagsInJobItem}
             />
-    }
+        }
 
     )
 
 
 
+   const styleForJobListInMobile =  jobTagsToDisplay.length > 0 ? classes['ul-joblist'] + ' ' + classes['joblistExtraMargin'] : classes['ul-joblist'] ;
 
-   if(isMobile){
-       if(jobTagsToDisplay.length > 0){
-           const styles = classes['expand-margin-for-joblist'] + ' ' + classes['ul-joblist']
-           return (
-               <Fragment>
-
-                   <div className={classes['job-list']}>
-                       {jobTagsToDisplay.length > 0 ? <SelectedTags
-                           languageTagToShowInFilter={jobTagsToDisplay}
-                           tagUserClickedToRemoveAJobFromFilter={removeTagFromSavedList}
-                           clearAllTagsFromFilter={clearAllSelectedTagsOnClearButtonClick}/> : null
-                       }
-                       <ul className={styles}>
-                           {jobItemsInList}
-                       </ul>
-
-                   </div>
-               </Fragment>
-
-           )
-       }
-       return (
-           <Fragment>
-
-               <div className={classes['job-list']}>
-                   {jobTagsToDisplay.length > 0 ? <SelectedTags
-                       languageTagToShowInFilter={jobTagsToDisplay}
-                       tagUserClickedToRemoveAJobFromFilter={removeTagFromSavedList}/> : null
-                   }
-                   <ul className={classes['ul-joblist']}>
-                       {jobItemsInList}
-                   </ul>
-
-               </div>
-           </Fragment>
-
-       )
-   }
 
     return (
         <Fragment>
@@ -327,7 +290,7 @@ const Joblist = (props) =>{
                     tagUserClickedToRemoveAJobFromFilter={removeTagFromSavedList}
                     clearAllTagsFromFilter={clearAllSelectedTagsOnClearButtonClick}/> : null
                 }
-                <ul className={classes['ul-joblist']}>
+                <ul className={styleForJobListInMobile}>
                     {jobItemsInList}
                 </ul>
 

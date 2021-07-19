@@ -1,20 +1,20 @@
 
 import classes from './App.module.css';
-import Header from "./components/Layout/Header";
-import Joblist from "./components/JobList/Joblist";
-import React from "react";
 
+import React from "react";
+import Header from "./Layout/Header";
+import Joblist from "./components/JobList/JobList";
 
 function App() {
 
 
 
-  const styles = classes['app'] + ' ' + classes['app-contianer']
+  const styles = classes['app-contianer']
 
   return (
     <div className={styles}>
-    <Header/>
-    <Joblist/>
+      <Header/>
+      <Joblist/>
     </div>
   );
 }
